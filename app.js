@@ -67,12 +67,14 @@ git pull origin main
 git init
 git remote add origin //copy link
 ssh-keygen -t rsa -b 4094 -C "gmail"
-      (gitkey)
+git add (filename)
+git commit -m 'massage'
+      
 git add gitkey
 git add gitkey.pub
 git remote show origin
 git status
-git commit -m 'massage'
+
 git push -u origin master
 ----------------------------------------------------------------------
 git init
